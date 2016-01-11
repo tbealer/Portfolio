@@ -1,0 +1,119 @@
+body {
+ background: #014B63; 
+}
+
+#main{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  position: relative;
+  clear: both;
+}
+#text{
+  display: block;
+  float:right;
+  clear:both;
+  width: 25%;
+  color: white;
+  text-align: left;
+}
+
+#nav{
+  display: block;
+  width: 100%;
+  color: white;
+}
+button{
+  background: #165E75;
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Ariel";
+  font-size: 20px;
+}
+button:hover{
+  background-color: #003242;
+}
+.one{
+  display: block;
+  float: left;
+  width: 30%;
+  color: white;
+  background: #5CA1B8;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 10px;
+  }
+.three{
+  display: block;
+  float: left;
+  width: 30%;
+  color: white;
+  background: #5CA1B8;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.two{
+  display: block;
+  float: left;
+  width: 30%;
+  color: white;
+  background: #5CA1B8;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 10px;
+
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+li {
+  position: absolute;
+  
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+
+img{
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
+}
+li:nth-child(4) {
+  animation: xfade 16s 0s infinite;
+}
+li:nth-child(3) {
+  animation: xfade 16s 4s infinite;
+}
+li:nth-child(2) {
+  animation: xfade 16s 8s infinite;
+}
+li:nth-child(1) {
+  animation: xfade 16s 12s infinite;
+}
+@keyframes xfade{
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+}
