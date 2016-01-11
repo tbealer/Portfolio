@@ -17,6 +17,17 @@ body {
   width: 25%;
   color: white;
   text-align: left;
+  margin-top: 5%;
+}
+
+#columnLeft{
+  display: block;
+  float: left;
+  clear: both;
+  width: 25%;
+  color: white;
+  text-align: left;
+  margin-top: 5%;
 }
 
 #nav{
